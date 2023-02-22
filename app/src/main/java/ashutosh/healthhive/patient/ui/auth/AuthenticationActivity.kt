@@ -1,8 +1,8 @@
-package ashutosh.healthhive.doctor.ui.auth
+package ashutosh.healthhive.patient.ui.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import ashutosh.healthhive.doctor.R
+import ashutosh.healthhive.patient.R
 
 class AuthenticationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

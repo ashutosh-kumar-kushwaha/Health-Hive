@@ -1,13 +1,8 @@
-package ashutosh.healthhive.doctor.api
+package ashutosh.healthhive.patient.api
 
-import android.util.Log
-import ashutosh.healthhive.doctor.datastore.DataStoreManager
-import kotlinx.coroutines.flow.first
+import ashutosh.healthhive.patient.datastore.DataStoreManager
 import kotlinx.coroutines.runBlocking
 import okhttp3.*
-import okhttp3.logging.HttpLoggingInterceptor
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Inject
 
 class AuthAuthenticator @Inject constructor(private val dataStoreManager: DataStoreManager) :

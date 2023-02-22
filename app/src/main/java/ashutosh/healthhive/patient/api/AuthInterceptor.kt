@@ -1,6 +1,6 @@
-package ashutosh.healthhive.doctor.api
+package ashutosh.healthhive.patient.api
 
-import ashutosh.healthhive.doctor.datastore.DataStoreManager
+import ashutosh.healthhive.patient.datastore.DataStoreManager
 import okhttp3.Interceptor
 import okhttp3.Response
 import javax.inject.Inject

@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'ashutosh.healthhive.doctor'
+    namespace 'ashutosh.healthhive.patient'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ashutosh.healthhive.doctor"
+        applicationId "ashutosh.healthhive.patient"
         minSdk 21
         targetSdk 33
         versionCode 1

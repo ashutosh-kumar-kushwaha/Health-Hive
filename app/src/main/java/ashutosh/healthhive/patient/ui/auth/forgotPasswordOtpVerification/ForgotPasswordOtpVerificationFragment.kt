@@ -1,11 +1,11 @@
-package ashutosh.healthhive.doctor.ui.auth.forgotPasswordOtpVerification
+package ashutosh.healthhive.patient.ui.auth.forgotPasswordOtpVerification
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import ashutosh.healthhive.doctor.R
+import ashutosh.healthhive.patient.R
 
 class ForgotPasswordOtpVerificationFragment : Fragment() {
 

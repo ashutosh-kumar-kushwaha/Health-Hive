@@ -1,4 +1,4 @@
-package ashutosh.healthhive.doctor.api
+package ashutosh.healthhive.patient.api
 
 sealed class NetworkResult<T>(val responseCode: Int? = null, val data : T? = null, val message : String? = null){
     class Success<T>(responseCode: Int, data : T) : NetworkResult<T>(responseCode, data)

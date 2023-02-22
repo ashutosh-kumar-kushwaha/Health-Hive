@@ -1,11 +1,11 @@
-package ashutosh.healthhive.doctor.di
+package ashutosh.healthhive.patient.di
 
 import android.content.Context
-import ashutosh.healthhive.doctor.Constants
-import ashutosh.healthhive.doctor.datastore.DataStoreManager
-import ashutosh.healthhive.doctor.api.AuthAuthenticator
-import ashutosh.healthhive.doctor.api.AuthInterceptor
-import ashutosh.healthhive.doctor.api.RetrofitAPI
+import ashutosh.healthhive.patient.Constants
+import ashutosh.healthhive.patient.datastore.DataStoreManager
+import ashutosh.healthhive.patient.api.AuthAuthenticator
+import ashutosh.healthhive.patient.api.AuthInterceptor
+import ashutosh.healthhive.patient.api.RetrofitAPI
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

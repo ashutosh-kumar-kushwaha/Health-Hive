@@ -1,4 +1,4 @@
-package ashutosh.healthhive.doctor
+package ashutosh.healthhive.patient
 
 import org.junit.Test
 

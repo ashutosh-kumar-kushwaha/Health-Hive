@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ashutosh.healthhive.doctor">
+    package="ashutosh.healthhive.patient">
 
     <application
-        android:name=".HealthHiveApplication"
+        android:name="ashutosh.healthhive.patient.HealthHiveApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,7 +14,7 @@
         android:theme="@style/Theme.HealthHive"
         tools:targetApi="31">
         <activity
-            android:name=".ui.auth.AuthenticationActivity"
+            android:name="ashutosh.healthhive.patient.ui.auth.AuthenticationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
